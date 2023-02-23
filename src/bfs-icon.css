@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "bfs";
+  src: url('./fonts/bfs.eot?t=1677131904736'); /* IE9*/
+  src: url('./fonts/bfs.eot?t=1677131904736#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("./fonts/bfs.woff2?t=1677131904736") format("woff2"),
+  url("./fonts/bfs.woff?t=1677131904736") format("woff"),
+  url('./fonts/bfs.ttf?t=1677131904736') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('./fonts/bfs.svg?t=1677131904736#bfs') format('svg'); /* iOS 4.1- */
+}
+
+[class^="bfs-"], [class*=" bfs-"] {
+  font-family: 'bfs' !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.bfs-1st-brecket-1:before { content: "\ea01"; }
+.bfs-1st-brecket-2:before { content: "\ea02"; }
+.bfs-1st-brecket-circle-1:before { content: "\ea03"; }
+.bfs-1st-brecket-circle-2:before { content: "\ea04"; }
+.bfs-1st-brecket-circle:before { content: "\ea05"; }
+.bfs-1st-brecket-square-1:before { content: "\ea06"; }
+.bfs-1st-brecket-square-2:before { content: "\ea07"; }
+.bfs-1st-brecket-square:before { content: "\ea08"; }
+.bfs-1st-brecket:before { content: "\ea09"; }
+.bfs-2nd-brecket-1:before { content: "\ea0a"; }
+.bfs-2nd-brecket-2:before { content: "\ea0b"; }
+.bfs-2nd-brecket-circle-1:before { content: "\ea0c"; }
+.bfs-2nd-brecket-circle-2:before { content: "\ea0d"; }
+.bfs-2nd-brecket-circle:before { content: "\ea0e"; }
+.bfs-2nd-brecket-square-1:before { content: "\ea0f"; }
+.bfs-2nd-brecket-square-2:before { content: "\ea10"; }
+.bfs-2nd-brecket-square:before { content: "\ea11"; }
+.bfs-2nd-brecket:before { content: "\ea12"; }
+.bfs-3d-move-1:before { content: "\ea13"; }
+.bfs-3d-move-2:before { content: "\ea14"; }
+.bfs-3d-move:before { content: "\ea15"; }
+.bfs-3d-rotate-1:before { content: "\ea16"; }
+.bfs-3d-rotate-2:before { content: "\ea17"; }
+.bfs-3d-rotate:before { content: "\ea18"; }
+.bfs-3d-scale-1:before { content: "\ea19"; }
+.bfs-3d-scale-2:before { content: "\ea1a"; }
+.bfs-3d-scale:before { content: "\ea1b"; }
+.bfs-3d-view-1:before { content: "\ea1c"; }
+.bfs-3d-view-2:before { content: "\ea1d"; }
+.bfs-3d-view:before { content: "\ea1e"; }

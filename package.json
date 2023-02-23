@@ -1,0 +1,31 @@
+{
+  "name": "svgcdn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "svg:optmize": "svgo -f ./src/icons -o ./src/icons",
+    "svg:to-path": "svgtofont --sources ./src/icons --output ./src/fonts --fontName bfs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "svgtofont": {
+    "fontName": "bfs",
+    "website": false,
+    "outSVGReact": false,
+    "css": {
+      "output": "./src",
+      "fileName": "bfs-icon",
+      "include": "\\.(css)$",
+      "cssPath": "./fonts/"
+    }
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "svgo": "^3.0.2",
+    "svgtofont": "^3.22.0"
+  },
+  "dependencies": {
+    "cwco": "^1.7.8"
+  }
+}
