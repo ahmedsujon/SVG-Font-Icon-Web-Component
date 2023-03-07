@@ -1,11 +1,11 @@
 @font-face {
   font-family: "bfs";
-  src: url('./fonts/bfs.eot?t=1677131904736'); /* IE9*/
-  src: url('./fonts/bfs.eot?t=1677131904736#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url("./fonts/bfs.woff2?t=1677131904736") format("woff2"),
-  url("./fonts/bfs.woff?t=1677131904736") format("woff"),
-  url('./fonts/bfs.ttf?t=1677131904736') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('./fonts/bfs.svg?t=1677131904736#bfs') format('svg'); /* iOS 4.1- */
+  src: url('./fonts/bfs.eot?t=1678179802597'); /* IE9*/
+  src: url('./fonts/bfs.eot?t=1678179802597#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("./fonts/bfs.woff2?t=1678179802597") format("woff2"),
+  url("./fonts/bfs.woff?t=1678179802597") format("woff"),
+  url('./fonts/bfs.ttf?t=1678179802597') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('./fonts/bfs.svg?t=1678179802597#bfs') format('svg'); /* iOS 4.1- */
 }
 
 [class^="bfs-"], [class*=" bfs-"] {
@@ -17,33 +17,64 @@
 }
 
 
-.bfs-1st-brecket-1:before { content: "\ea01"; }
-.bfs-1st-brecket-2:before { content: "\ea02"; }
-.bfs-1st-brecket-circle-1:before { content: "\ea03"; }
-.bfs-1st-brecket-circle-2:before { content: "\ea04"; }
-.bfs-1st-brecket-circle:before { content: "\ea05"; }
-.bfs-1st-brecket-square-1:before { content: "\ea06"; }
-.bfs-1st-brecket-square-2:before { content: "\ea07"; }
-.bfs-1st-brecket-square:before { content: "\ea08"; }
-.bfs-1st-brecket:before { content: "\ea09"; }
-.bfs-2nd-brecket-1:before { content: "\ea0a"; }
-.bfs-2nd-brecket-2:before { content: "\ea0b"; }
-.bfs-2nd-brecket-circle-1:before { content: "\ea0c"; }
-.bfs-2nd-brecket-circle-2:before { content: "\ea0d"; }
-.bfs-2nd-brecket-circle:before { content: "\ea0e"; }
-.bfs-2nd-brecket-square-1:before { content: "\ea0f"; }
-.bfs-2nd-brecket-square-2:before { content: "\ea10"; }
-.bfs-2nd-brecket-square:before { content: "\ea11"; }
-.bfs-2nd-brecket:before { content: "\ea12"; }
-.bfs-3d-move-1:before { content: "\ea13"; }
-.bfs-3d-move-2:before { content: "\ea14"; }
-.bfs-3d-move:before { content: "\ea15"; }
-.bfs-3d-rotate-1:before { content: "\ea16"; }
-.bfs-3d-rotate-2:before { content: "\ea17"; }
-.bfs-3d-rotate:before { content: "\ea18"; }
-.bfs-3d-scale-1:before { content: "\ea19"; }
-.bfs-3d-scale-2:before { content: "\ea1a"; }
-.bfs-3d-scale:before { content: "\ea1b"; }
-.bfs-3d-view-1:before { content: "\ea1c"; }
-.bfs-3d-view-2:before { content: "\ea1d"; }
-.bfs-3d-view:before { content: "\ea1e"; }
+.bfs-cellular-network-offline:before { content: "\ea01"; }
+.bfs-cellular-network:before { content: "\ea02"; }
+.bfs-gps-disconnected:before { content: "\ea03"; }
+.bfs-gps-signal-01:before { content: "\ea04"; }
+.bfs-gps-signal-02:before { content: "\ea05"; }
+.bfs-headset-connected:before { content: "\ea06"; }
+.bfs-home-wifi:before { content: "\ea07"; }
+.bfs-hotspot-offline:before { content: "\ea08"; }
+.bfs-hotspot:before { content: "\ea09"; }
+.bfs-internet-antenna-01:before { content: "\ea0a"; }
+.bfs-internet-antenna-02:before { content: "\ea0b"; }
+.bfs-internet-antenna-03:before { content: "\ea0c"; }
+.bfs-internet-antenna-04:before { content: "\ea0d"; }
+.bfs-internet:before { content: "\ea0e"; }
+.bfs-new-gps-signal-01:before { content: "\ea0f"; }
+.bfs-new-gps-signal-02:before { content: "\ea10"; }
+.bfs-new-new-gps-signal-01:before { content: "\ea11"; }
+.bfs-new-wifi-error-01:before { content: "\ea12"; }
+.bfs-new-wifi-error-02:before { content: "\ea13"; }
+.bfs-no-internet:before { content: "\ea14"; }
+.bfs-router-01:before { content: "\ea15"; }
+.bfs-router-02:before { content: "\ea16"; }
+.bfs-satellite:before { content: "\ea17"; }
+.bfs-secured-network:before { content: "\ea18"; }
+.bfs-security-wifi:before { content: "\ea19"; }
+.bfs-shared-wifi:before { content: "\ea1a"; }
+.bfs-signal-full-01:before { content: "\ea1b"; }
+.bfs-signal-full-02:before { content: "\ea1c"; }
+.bfs-signal-low-01:before { content: "\ea1d"; }
+.bfs-signal-low-02:before { content: "\ea1e"; }
+.bfs-signal-low-medium:before { content: "\ea1f"; }
+.bfs-signal-medium-01:before { content: "\ea20"; }
+.bfs-signal-no-01:before { content: "\ea21"; }
+.bfs-signal-no-02:before { content: "\ea22"; }
+.bfs-smartphone-lost-wifi:before { content: "\ea23"; }
+.bfs-smartphone-wifi:before { content: "\ea24"; }
+.bfs-wifi-01:before { content: "\ea25"; }
+.bfs-wifi-02:before { content: "\ea26"; }
+.bfs-wifi-circle:before { content: "\ea27"; }
+.bfs-wifi-connected-01:before { content: "\ea28"; }
+.bfs-wifi-connected-02:before { content: "\ea29"; }
+.bfs-wifi-connected-03:before { content: "\ea2a"; }
+.bfs-wifi-disconnected-01:before { content: "\ea2b"; }
+.bfs-wifi-disconnected-02:before { content: "\ea2c"; }
+.bfs-wifi-disconnected-03:before { content: "\ea2d"; }
+.bfs-wifi-disconnected-04:before { content: "\ea2e"; }
+.bfs-wifi-error-01:before { content: "\ea2f"; }
+.bfs-wifi-error-02:before { content: "\ea30"; }
+.bfs-wifi-error-fixed-02:before { content: "\ea31"; }
+.bfs-wifi-full-signal:before { content: "\ea32"; }
+.bfs-wifi-location:before { content: "\ea33"; }
+.bfs-wifi-lock:before { content: "\ea34"; }
+.bfs-wifi-low-signal:before { content: "\ea35"; }
+.bfs-wifi-medium-signal:before { content: "\ea36"; }
+.bfs-wifi-no-signal:before { content: "\ea37"; }
+.bfs-wifi-off-01:before { content: "\ea38"; }
+.bfs-wifi-off-02:before { content: "\ea39"; }
+.bfs-wifi-square:before { content: "\ea3a"; }
+.bfs-wifi-unlock:before { content: "\ea3b"; }
+.bfs-wireless-cloud-access:before { content: "\ea3c"; }
+.bfs-wireless:before { content: "\ea3d"; }

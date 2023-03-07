@@ -1,333 +1,422 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Hugeiconspro</title>
     <style>
+      body {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 10px 20px;
+        text-align: center;
+      }
 
-        body {
-            font-family: sans-serif;
-            margin: 0;
-            padding: 10px 20px;
-            text-align: center;
-        }
+      .preview {
+        width: 100px;
+        display: inline-block;
+        margin: 10px;
+      }
 
-        .preview {
-            width: 100px;
-            display: inline-block;
-            margin: 10px;
-        }
+      .preview .inner {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        background: #f5f5f5;
+        -webkit-border-radius: 3px 3px 0 0;
+        -moz-border-radius: 3px 3px 0 0;
+        border-radius: 3px 3px 0 0;
+      }
 
-        .preview .inner {
-            display: inline-block;
-            width: 100%;
-            text-align: center;
-            background: #f5f5f5;
-            -webkit-border-radius: 3px 3px 0 0;
-            -moz-border-radius: 3px 3px 0 0;
-            border-radius: 3px 3px 0 0;
-        }
+      .preview .inner i {
+        line-height: 85px;
+        font-size: 40px;
+        color: #333;
+      }
 
-        .preview .inner i {
-            line-height: 85px;
-            font-size: 40px;
-            color: #333;
-        }
-
-        .label {
-            display: inline-block;
-            width: 100%;
-            box-sizing: border-box;
-            padding: 5px;
-            font-size: 10px;
-            font-family: Monaco, monospace;
-            color: #666;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            background: #ddd;
-            -webkit-border-radius: 0 0 3px 3px;
-            -moz-border-radius: 0 0 3px 3px;
-            border-radius: 0 0 3px 3px;
-            color: #666;
-        }
+      .label {
+        display: inline-block;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 5px;
+        font-size: 10px;
+        font-family: Monaco, monospace;
+        color: #666;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        background: #ddd;
+        -webkit-border-radius: 0 0 3px 3px;
+        -moz-border-radius: 0 0 3px 3px;
+        border-radius: 0 0 3px 3px;
+        color: #666;
+      }
     </style>
-    <link rel="stylesheet" href="./src/bfs-icon.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="./src/bfs-icon.css" />
+  </head>
+  <body>
     <h1>Hugeiconspro</h1>
 
+    <div class="preview">
+      <span class="inner">
+        <i class="bfs-cellular-network-offline"></i>
+      </span>
+      <br />
+      <span class="label">1</span>
+    </div>
 
-        <div class="preview">
-            <span class="inner">
-                <i class="bfs-1st-brecket-1"></i>
-            </span>
-            <br>
-            <span class='label'>1st-brecket-1</span>
-        </div>
+    <div class="preview">
+      <span class="inner">
+        <i class="bfs-cellular-network"></i>
+      </span>
+      <br />
+      <span class="label">2</span>
+    </div>
 
+    <div class="preview">
+        <span class="inner">
+          <i class="bfs-gps-disconnected"></i>
+        </span>
+        <br />
+        <span class="label">3</span>
+      </div>
 
-        <div class="preview">
-            <span class="inner">
-                <i class="bfs-1st-brecket-2"></i>
-            </span>
-            <br>
-            <span class='label'>1st-brecket-2</span>
-        </div>
+      <div class="preview">
+        <span class="inner">
+          <i class="bfs-gps-signal-01"></i>
+        </span>
+        <br />
+        <span class="label">4</span>
+      </div>
 
+      <div class="preview">
+        <span class="inner">
+          <i class="bfs-gps-signal-02"></i>
+        </span>
+        <br />
+        <span class="label">5</span>
+      </div>
 
-        <div class="preview">
-            <span class="inner">
-                <i class="bfs-1st-brecket-circle-1"></i>
-            </span>
-            <br>
-            <span class='label'>1st-brecket-circle-1</span>
-        </div>
+      <div class="preview">
+        <span class="inner">
+          <i class="bfs-headset-connected"></i>
+        </span>
+        <br />
+        <span class="label">6</span>
+      </div>
 
+      <div class="preview">
+        <span class="inner">
+          <i class="bfs-home-wifi"></i>
+        </span>
+        <br />
+        <span class="label">7</span>
+      </div>
 
-        <div class="preview">
-            <span class="inner">
-                <i class="bfs-1st-brecket-circle-2"></i>
-            </span>
-            <br>
-            <span class='label'>1st-brecket-circle-2</span>
-        </div>
+      <div class="preview">
+        <span class="inner">
+          <i class="bfs-hotspot-offline"></i>
+        </span>
+        <br />
+        <span class="label">8</span>
+      </div>
 
+      <div class="preview">
+        <span class="inner">
+          <i class="bfs-hotspot"></i>
+        </span>
+        <br />
+        <span class="label">9</span>
+      </div>
 
-        <div class="preview">
-            <span class="inner">
-                <i class="bfs-1st-brecket-circle"></i>
-            </span>
-            <br>
-            <span class='label'>1st-brecket-circle</span>
-        </div>
+      <div class="preview">
+        <span class="inner">
+          <i class="bfs-wifi-error-02"></i>
+        </span>
+        <br />
+        <span class="label">10</span>
+      </div>
 
+      <div class="preview">
+        <span class="inner">
+          <i class="bfs-wifi-error-fixed-02"></i>
+        </span>
+        <br />
+        <span class="label">11</span>
+      </div>
 
-        <div class="preview">
-            <span class="inner">
-                <i class="bfs-1st-brecket-square-1"></i>
-            </span>
-            <br>
-            <span class='label'>1st-brecket-square-1</span>
-        </div>
+      <div class="preview">
+        <span class="inner">
+          <i class="bfs-internet-antenna-02"></i>
+        </span>
+        <br />
+        <span class="label">12</span>
+      </div>
 
+      <div class="preview">
+        <span class="inner">
+          <i class="bfs-wifi-error-fixed-02"></i>
+        </span>
+        <br />
+        <span class="label">13</span>
+      </div>
 
-        <div class="preview">
-            <span class="inner">
-                <i class="bfs-1st-brecket-square-2"></i>
-            </span>
-            <br>
-            <span class='label'>1st-brecket-square-2</span>
-        </div>
+      <div class="preview">
+        <span class="inner">
+          <i class="bfs-internet-antenna-03"></i>
+        </span>
+        <br />
+        <span class="label">14</span>
+      </div>
 
+      <div class="preview">
+        <span class="inner">
+          <i class="bfs-internet-antenna-04"></i>
+        </span>
+        <br />
+        <span class="label">15</span>
+      </div>
 
-        <div class="preview">
-            <span class="inner">
-                <i class="bfs-1st-brecket-square"></i>
-            </span>
-            <br>
-            <span class='label'>1st-brecket-square</span>
-        </div>
+      <div class="preview">
+        <span class="inner">
+          <i class="bfs-internet"></i>
+        </span>
+        <br />
+        <span class="label">16</span>
+      </div>
 
+      <div class="preview">
+        <span class="inner">
+          <i class="bfs-no-internet"></i>
+        </span>
+        <br />
+        <span class="label">17</span>
+      </div>
 
-        <div class="preview">
-            <span class="inner">
-                <i class="bfs-1st-brecket"></i>
-            </span>
-            <br>
-            <span class='label'>1st-brecket</span>
-        </div>
+      <div class="preview">
+        <span class="inner">
+          <i class="bfs-router-01"></i>
+        </span>
+        <br />
+        <span class="label">18</span>
+      </div>
 
+      <div class="preview">
+        <span class="inner">
+          <i class="bfs-router-02"></i>
+        </span>
+        <br />
+        <span class="label">19</span>
+      </div>
 
-        <div class="preview">
-            <span class="inner">
-                <i class=" flaticon-bookmark"></i>
-            </span>
-            <br>
-            <span class='label'>bookmark</span>
-        </div>
+      <div class="preview">
+        <span class="inner">
+          <i class="bfs-satellite"></i>
+        </span>
+        <br />
+        <span class="label">20</span>
+      </div>
 
+      <div class="preview">
+        <span class="inner">
+          <i class="bfs-secured-network"></i>
+        </span>
+        <br />
+        <span class="label">21</span>
+      </div>
 
-        <div class="preview">
-            <span class="inner">
-                <i class=" flaticon-bulb"></i>
-            </span>
-            <br>
-            <span class='label'>bulb</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class=" flaticon-comment"></i>
-            </span>
-            <br>
-            <span class='label'>comment</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class=" flaticon-cross"></i>
-            </span>
-            <br>
-            <span class='label'>cross</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class=" flaticon-envelope"></i>
-            </span>
-            <br>
-            <span class='label'>envelope</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class=" flaticon-following"></i>
-            </span>
-            <br>
-            <span class='label'>following</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class=" flaticon-graduation-cap"></i>
-            </span>
-            <br>
-            <span class='label'>graduation-cap</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class=" flaticon-hastag"></i>
-            </span>
-            <br>
-            <span class='label'>hastag</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class=" flaticon-heart"></i>
-            </span>
-            <br>
-            <span class='label'>heart</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class=" flaticon-home"></i>
-            </span>
-            <br>
-            <span class='label'>home</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class=" flaticon-interrogation"></i>
-            </span>
-            <br>
-            <span class='label'>interrogation</span>
-        </div>
+      <div class="preview">
+        <span class="inner">
+          <i class="bfs-security-wifi"></i>
+        </span>
+        <br />
+        <span class="label">22</span>
+      </div>
 
 
-        <div class="preview">
-            <span class="inner">
-                <i class=" flaticon-list-check"></i>
-            </span>
-            <br>
-            <span class='label'>list-check</span>
-        </div>
+      <div class="preview">
+        <span class="inner">
+          <i class="bfs-shared-wifi"></i>
+        </span>
+        <br />
+        <span class="label">23</span>
+      </div>
 
+      <div class="preview">
+        <span class="inner">
+          <i class="bfs-signal-full-01"></i>
+        </span>
+        <br />
+        <span class="label">24</span>
+      </div>
 
-        <div class="preview">
-            <span class="inner">
-                <i class=" flaticon-list"></i>
-            </span>
-            <br>
-            <span class='label'>list</span>
-        </div>
+      <div class="preview">
+        <span class="inner">
+          <i class="bfs-signal-full-02"></i>
+        </span>
+        <br />
+        <span class="label">25</span>
+      </div>
+      
+      <div class="preview">
+        <span class="inner">
+          <i class="bfs-signal-low-01"></i>
+        </span>
+        <br />
+        <span class="label">26</span>
+      </div>
+      
+      <div class="preview">
+        <span class="inner">
+          <i class="bfs-signal-low-02"></i>
+        </span>
+        <br />
+        <span class="label">27</span>
+      </div>
+      
+      <div class="preview">
+        <span class="inner">
+          <i class="bfs-signal-low-medium"></i>
+        </span>
+        <br />
+        <span class="label">28</span>
+      </div>
+      
+      <div class="preview">
+        <span class="inner">
+          <i class="bfs-signal-medium-01"></i>
+        </span>
+        <br />
+        <span class="label">29</span>
+      </div>
+      
+      <div class="preview">
+        <span class="inner">
+          <i class="bfs-signal-no-01"></i>
+        </span>
+        <br />
+        <span class="label">30</span>
+      </div>
+      
+      <div class="preview">
+        <span class="inner">
+          <i class="bfs-signal-no-02"></i>
+        </span>
+        <br />
+        <span class="label">31</span>
+      </div>
+      
+      <div class="preview">
+        <span class="inner">
+          <i class="bfs-smartphone-lost-wifi"></i>
+        </span>
+        <br />
+        <span class="label">32</span>
+      </div>
+      
+      <div class="preview">
+        <span class="inner">
+          <i class="bfs-smartphone-wifi"></i>
+        </span>
+        <br />
+        <span class="label">33</span>
+      </div>
+      
+      <div class="preview">
+        <span class="inner">
+          <i class="bfs-wifi-01"></i>
+        </span>
+        <br />
+        <span class="label">34</span>
+      </div>
+      
+      <div class="preview">
+        <span class="inner">
+          <i class="bfs-wifi-02"></i>
+        </span>
+        <br />
+        <span class="label">35</span>
+      </div>
+      
+      <div class="preview">
+        <span class="inner">
+          <i class="bfs-wifi-circle"></i>
+        </span>
+        <br />
+        <span class="label">36</span>
+      </div>
+      
+      <div class="preview">
+        <span class="inner">
+          <i class="bfs-wifi-connected-01"></i>
+        </span>
+        <br />
+        <span class="label">37</span>
+      </div>
+      
+      <div class="preview">
+        <span class="inner">
+          <i class="bfs-wifi-connected-02"></i>
+        </span>
+        <br />
+        <span class="label">38</span>
+      </div>
+      
+      <div class="preview">
+        <span class="inner">
+          <i class="bfs-wifi-connected-03"></i>
+        </span>
+        <br />
+        <span class="label">39</span>
+      </div>
+      
+      <div class="preview">
+        <span class="inner">
+          <i class="bfs-wifi-disconnected-01"></i>
+        </span>
+        <br />
+        <span class="label">40</span>
+      </div>
 
+      <div class="preview">
+        <span class="inner">
+          <i class="bfs-new-wifi-error-01"></i>
+        </span>
+        <br />
+        <span class="label">41</span>
+      </div>
 
-        <div class="preview">
-            <span class="inner">
-                <i class=" flaticon-marker"></i>
-            </span>
-            <br>
-            <span class='label'>marker</span>
-        </div>
+      <div class="preview">
+        <span class="inner">
+          <i class="bfs-new-wifi-error-02"></i>
+        </span>
+        <br />
+        <span class="label">42</span>
+      </div>
 
+      <div class="preview">
+        <span class="inner">
+          <i class="bfs-new-gps-signal-01"></i>
+        </span>
+        <br />
+        <span class="label">43</span>
+      </div>
 
-        <div class="preview">
-            <span class="inner">
-                <i class=" flaticon-play"></i>
-            </span>
-            <br>
-            <span class='label'>play</span>
-        </div>
+      <div class="preview">
+        <span class="inner">
+          <i class="bfs-new-gps-signal-02"></i>
+        </span>
+        <br />
+        <span class="label">44</span>
+      </div>
 
+      
+      <div class="preview">
+        <span class="inner">
+          <i class="bfs-new-new-gps-signal-01"></i>
+        </span>
+        <br />
+        <span class="label">44</span>
+      </div>
 
-        <div class="preview">
-            <span class="inner">
-                <i class=" flaticon-refresh"></i>
-            </span>
-            <br>
-            <span class='label'>refresh</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class=" flaticon-settings"></i>
-            </span>
-            <br>
-            <span class='label'>settings</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class=" flaticon-shopping-cart"></i>
-            </span>
-            <br>
-            <span class='label'>shopping-cart</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class=" flaticon-stats"></i>
-            </span>
-            <br>
-            <span class='label'>stats</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class=" flaticon-user"></i>
-            </span>
-            <br>
-            <span class='label'>user</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class=" flaticon-users-alt"></i>
-            </span>
-            <br>
-            <span class='label'>users-alt</span>
-        </div>
-
-
-</body>
+  </body>
 </html>

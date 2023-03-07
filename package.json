@@ -6,12 +6,11 @@
   "scripts": {
     "svg:optmize": "svgo -f ./src/icons -o ./src/icons",
     "svg:to-path": "svgtofont --sources ./src/icons --output ./src/fonts --fontName bfs",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "svg:all": "npm run svg:optmize && npm run svg:to-path"
   },
   "svgtofont": {
     "fontName": "bfs",
-    "website": false,
-    "outSVGReact": false,
     "css": {
       "output": "./src",
       "fileName": "bfs-icon",
